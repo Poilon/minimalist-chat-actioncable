@@ -1,0 +1,6 @@
+#messages
+  = render @messages
+
+#chat-form
+  = form_for @message, remote: true do |f|
+    = f.text_field :body
