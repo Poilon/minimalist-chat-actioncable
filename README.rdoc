@@ -2,14 +2,15 @@ Hello
 
 to run this mini chat
 
-```
-git clone https://github.com/Poilon/minimalist-chat-actioncable.git
-cd minimalist-chat-actioncable
-bundle
-rails s
-```
+  git clone https://github.com/Poilon/minimalist-chat-actioncable.git
+  cd minimalist-chat-actioncable
+  bundle
+  rails s
 
 then go to localhost:3000/
+
 open an incognito navigator and go to the same URL
+
 put names in both
+
 you can chat :D
