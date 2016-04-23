@@ -4,11 +4,17 @@
 #   :port: 6379
 #   :timeout: 1
 
-local: &local
+development: &development
   :url: redis://localhost:6379
   :host: localhost
   :port: 6379
   :timeout: 1
   :inline: true
-development: *local
-test: *local
+test: *development
+production: &production
+  :url: redis://redistogo:14f8556627e48902d16f3548d9ed9eee@lab.redistogo.com:10373/
+  :host: tarpon.redistogo.com
+  :port: 10373
+  :password: 14f8556627e48902d16f3548d9ed9eee
+  :inline: true
+  :timeout: 1
