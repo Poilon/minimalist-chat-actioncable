@@ -38,6 +38,7 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
-  config.middleware.use "ChatActionCable"
+  config.middleware.use 'ChatActionCable'
+  config.web_socket_server_url = 'ws://localhost:3000/'
 
 end
