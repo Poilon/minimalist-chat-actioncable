@@ -11,7 +11,7 @@ gem 'slim'
 gem 'faye-websocket'
 gem 'redis'
 
-
+gem 'pg'
 
 
 
