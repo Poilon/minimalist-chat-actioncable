@@ -1,28 +1,16 @@
-== README
+Hello
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+to run this mini chat
 
-Things you may want to cover:
+  git clone https://github.com/Poilon/minimalist-chat-actioncable.git
+  cd minimalist-chat-actioncable
+  bundle
+  rails s
 
-* Ruby version
+then go to localhost:3000/
 
-* System dependencies
+open an incognito navigator and go to the same URL
 
-* Configuration
+put names in both
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+you can chat :D
